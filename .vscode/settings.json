@@ -1,0 +1,15 @@
+{
+  "python.pythonPath": "C:\\Users\\rdpol\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.autoComplete.extraPaths": [
+    "D:/BlenderAPI/2.92"
+  ],
+  "python.linting.pylintArgs": [
+      "--init-hook",
+      "import sys; sys.path.append('D:/BlenderAPI/2.92')"
+  ],
+  "python.analysis.extraPaths": [
+    "D:/BlenderAPI/2.92"
+  ]
+}
