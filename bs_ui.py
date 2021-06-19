@@ -8,7 +8,7 @@ class BS_UL_spawner_item(bpy.types.UIList):
         # icon_id = resources.image_collection["test"]["test"].icon_id
         icon_name = item.name.split(".")[0]
         try:
-            layout.label(text=icon_name, icon_value=resources.image_collections["items"][icon_name + ".png"].icon_id)
+            layout.label(text=icon_name, icon_value=resources.image_collections["items"][icon_name].icon_id)
         except:
             layout.label(text=icon_name)
 
